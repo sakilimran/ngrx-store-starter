@@ -19,4 +19,4 @@ export class FavoriteArticlesAction implements Action {
   constructor(public payload: Article[]) {}
 }
 
-export type All = JavaArticlesAction | AngularArticlesAction | FavoriteArticlesAction; 
+export type All = JavaArticlesAction | AngularArticlesAction | FavoriteArticlesAction;

@@ -12,20 +12,19 @@ export function reducer(state = initialState, action: fromActions.All): ArticleS
     }
     case fromActions.ANGULAR: {
       return {articles: ANGULAR_ARTICLES};
-    
-    } 
+    }
     case fromActions.MY_ARTICLES: {
       return {articles: action.payload};
-    }    
+    }
     default: {
       return state;
     }
-  }	
+  }
 }
 
 export const getArticleState = createFeatureSelector<ArticleState>('articleState');
 
 export const getArticles = createSelector(
-    getArticleState, 
-    (state: ArticleState) => state.articles 
+    getArticleState,
+    (state: ArticleState) => state.articles
 );
