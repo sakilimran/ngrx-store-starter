@@ -14,5 +14,6 @@ export const ANGULAR_ARTICLES: Article[] = [
 ]
 export const FAVORITE_ARTICLES: Article[] = [
     {id: 1, title: 'Java Article 1', category: 'Java'},
-    {id: 2, title: 'Angular Article 2', category: 'Angular'}
+    {id: 2, title: 'Angular Article 2', category: 'Angular'},
+    {id: 3, title: 'Angular Article 3', category: 'Node.js'}
 ]
